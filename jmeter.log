@@ -1,0 +1,305 @@
+2021-05-17 19:35:40,238 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-05-17 19:35:40,248 INFO o.a.j.JMeter: Loading user properties from: E:\apache-jmeter-5.4.1\bin\user.properties
+2021-05-17 19:35:40,248 INFO o.a.j.JMeter: Loading system properties from: E:\apache-jmeter-5.4.1\bin\system.properties
+2021-05-17 19:35:40,257 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-05-17 19:35:40,257 INFO o.a.j.JMeter: Version 5.4.1
+2021-05-17 19:35:40,257 INFO o.a.j.JMeter: java.version=1.8.0_271
+2021-05-17 19:35:40,257 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-05-17 19:35:40,257 INFO o.a.j.JMeter: os.name=Windows 10
+2021-05-17 19:35:40,257 INFO o.a.j.JMeter: os.arch=amd64
+2021-05-17 19:35:40,258 INFO o.a.j.JMeter: os.version=10.0
+2021-05-17 19:35:40,258 INFO o.a.j.JMeter: file.encoding=Cp1250
+2021-05-17 19:35:40,258 INFO o.a.j.JMeter: java.awt.headless=true
+2021-05-17 19:35:40,258 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-05-17 19:35:40,258 INFO o.a.j.JMeter: Available Processors =8
+2021-05-17 19:35:40,262 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-05-17 19:35:40,263 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-05-17 19:35:40,263 INFO o.a.j.JMeter: JMeterHome=E:\apache-jmeter-5.4.1
+2021-05-17 19:35:40,263 INFO o.a.j.JMeter: user.dir  =C:\Users\Hp omen\testowanie\performance
+2021-05-17 19:35:40,263 INFO o.a.j.JMeter: PWD       =C:\Users\Hp omen\testowanie\performance
+2021-05-17 19:35:44,782 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: LAPTOP-G2VFLD2Q FullName: LAPTOP-G2VFLD2Q
+2021-05-17 19:35:44,786 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\Hp omen\testowanie\performance\.\test'
+2021-05-17 19:35:44,788 INFO o.a.j.s.FileServer: Default base='C:\Users\Hp omen\testowanie\performance'
+2021-05-17 19:35:44,789 INFO o.a.j.s.FileServer: Set new base='C:\Users\Hp omen\testowanie\performance\.\test_plans'
+2021-05-17 19:35:44,898 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-05-17 19:35:44,912 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-05-17 19:35:44,917 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-05-17 19:35:44,923 INFO o.a.j.s.SaveService: Loading file: .\test_plans\mto-restful.jmx
+2021-05-17 19:35:44,965 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-17 19:35:44,966 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-17 19:35:44,966 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-17 19:35:44,966 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-05-17 19:35:44,966 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-05-17 19:35:44,966 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-05-17 19:35:44,996 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-05-17 19:35:45,000 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-05-17 19:35:45,000 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: log.txt
+2021-05-17 19:35:45,000 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: E:\apache-jmeter-5.4.1\bin\reportgenerator.properties
+2021-05-17 19:35:45,000 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-05-17 19:35:45,005 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-05-17 19:35:45,016 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-05-17 19:35:45,016 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-05-17 19:35:45,016 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-05-17 19:35:45,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-05-17 19:35:45,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-05-17 19:35:45,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-05-17 19:35:45,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-05-17 19:35:45,017 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-05-17 19:35:45,023 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,023 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,023 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,023 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-05-17 19:35:45,027 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-05-17 19:35:45,027 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-05-17 19:35:45,027 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-05-17 19:35:45,028 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-05-17 19:35:45,028 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-05-17 19:35:45,028 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-05-17 19:35:45,032 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-05-17 19:35:45,033 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-05-17 19:35:45,033 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-05-17 19:35:45,039 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-05-17 19:35:45,039 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-05-17 19:35:45,289 INFO o.a.j.JMeter: Running test (1621272945289)
+2021-05-17 19:35:45,315 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : mto-restful Thread Group
+2021-05-17 19:35:45,315 INFO o.a.j.e.StandardJMeterEngine: Starting 60 threads for group mto-restful Thread Group.
+2021-05-17 19:35:45,315 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-05-17 19:35:45,316 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=60 ramp-up=2 delayedStart=false
+2021-05-17 19:35:45,324 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-1
+2021-05-17 19:35:45,351 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-05-17 19:35:45,351 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-G2VFLD2Q
+2021-05-17 19:35:45,351 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-05-17 19:35:45,357 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-05-17 19:35:45,359 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-05-17 19:35:45,359 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-05-17 19:35:45,359 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-05-17 19:35:45,359 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-05-17 19:35:45,365 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-2
+2021-05-17 19:35:45,387 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-3
+2021-05-17 19:35:45,418 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-4
+2021-05-17 19:35:45,451 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-5
+2021-05-17 19:35:45,483 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-6
+2021-05-17 19:35:45,515 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-7
+2021-05-17 19:35:45,547 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-8
+2021-05-17 19:35:45,581 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-9
+2021-05-17 19:35:45,614 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-10
+2021-05-17 19:35:45,647 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-11
+2021-05-17 19:35:45,679 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-12
+2021-05-17 19:35:45,713 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-13
+2021-05-17 19:35:45,748 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-14
+2021-05-17 19:35:45,779 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-15
+2021-05-17 19:35:45,812 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-16
+2021-05-17 19:35:45,845 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-17
+2021-05-17 19:35:45,878 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-18
+2021-05-17 19:35:45,911 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-19
+2021-05-17 19:35:45,944 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-20
+2021-05-17 19:35:45,981 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-21
+2021-05-17 19:35:46,015 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-22
+2021-05-17 19:35:46,052 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-23
+2021-05-17 19:35:46,080 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-24
+2021-05-17 19:35:46,115 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-25
+2021-05-17 19:35:46,145 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-26
+2021-05-17 19:35:46,179 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-27
+2021-05-17 19:35:46,212 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-28
+2021-05-17 19:35:46,244 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-29
+2021-05-17 19:35:46,280 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-30
+2021-05-17 19:35:46,314 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-31
+2021-05-17 19:35:46,341 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-32
+2021-05-17 19:35:46,375 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-33
+2021-05-17 19:35:46,411 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-34
+2021-05-17 19:35:46,441 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-35
+2021-05-17 19:35:46,473 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-36
+2021-05-17 19:35:46,474 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-6
+2021-05-17 19:35:46,474 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-4
+2021-05-17 19:35:46,474 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-1
+2021-05-17 19:35:46,474 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-6
+2021-05-17 19:35:46,474 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-4
+2021-05-17 19:35:46,474 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-1
+2021-05-17 19:35:46,503 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-2
+2021-05-17 19:35:46,503 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-2
+2021-05-17 19:35:46,505 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-3
+2021-05-17 19:35:46,505 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-5
+2021-05-17 19:35:46,505 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-3
+2021-05-17 19:35:46,505 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-5
+2021-05-17 19:35:46,508 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-37
+2021-05-17 19:35:46,534 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-7
+2021-05-17 19:35:46,534 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-7
+2021-05-17 19:35:46,540 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-38
+2021-05-17 19:35:46,573 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-39
+2021-05-17 19:35:46,595 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-8
+2021-05-17 19:35:46,595 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-9
+2021-05-17 19:35:46,596 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-8
+2021-05-17 19:35:46,596 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-9
+2021-05-17 19:35:46,607 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-40
+2021-05-17 19:35:46,639 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-41
+2021-05-17 19:35:46,657 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-10
+2021-05-17 19:35:46,657 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-12
+2021-05-17 19:35:46,657 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-10
+2021-05-17 19:35:46,657 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-12
+2021-05-17 19:35:46,671 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-42
+2021-05-17 19:35:46,702 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-11
+2021-05-17 19:35:46,702 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-13
+2021-05-17 19:35:46,703 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-11
+2021-05-17 19:35:46,703 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-13
+2021-05-17 19:35:46,703 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-43
+2021-05-17 19:35:46,737 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-44
+2021-05-17 19:35:46,749 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-14
+2021-05-17 19:35:46,749 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-14
+2021-05-17 19:35:46,769 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-45
+2021-05-17 19:35:46,793 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-15
+2021-05-17 19:35:46,793 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-15
+2021-05-17 19:35:46,793 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-16
+2021-05-17 19:35:46,795 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-16
+2021-05-17 19:35:46,803 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-46
+2021-05-17 19:35:46,824 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-17
+2021-05-17 19:35:46,824 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-17
+2021-05-17 19:35:46,835 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-47
+2021-05-17 19:35:46,869 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-48
+2021-05-17 19:35:46,885 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-18
+2021-05-17 19:35:46,885 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-18
+2021-05-17 19:35:46,901 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-19
+2021-05-17 19:35:46,901 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-19
+2021-05-17 19:35:46,902 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-49
+2021-05-17 19:35:46,934 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-50
+2021-05-17 19:35:46,967 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-51
+2021-05-17 19:35:46,991 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-21
+2021-05-17 19:35:46,991 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-21
+2021-05-17 19:35:46,991 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-23
+2021-05-17 19:35:46,991 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-23
+2021-05-17 19:35:46,992 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-22
+2021-05-17 19:35:46,992 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-20
+2021-05-17 19:35:46,992 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-22
+2021-05-17 19:35:46,992 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-20
+2021-05-17 19:35:46,999 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-52
+2021-05-17 19:35:47,033 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-53
+2021-05-17 19:35:47,066 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-54
+2021-05-17 19:35:47,098 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-24
+2021-05-17 19:35:47,098 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-24
+2021-05-17 19:35:47,100 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-55
+2021-05-17 19:35:47,133 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-56
+2021-05-17 19:35:47,145 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-25
+2021-05-17 19:35:47,145 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-25
+2021-05-17 19:35:47,165 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-57
+2021-05-17 19:35:47,198 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-58
+2021-05-17 19:35:47,206 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-26
+2021-05-17 19:35:47,206 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-28
+2021-05-17 19:35:47,206 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-27
+2021-05-17 19:35:47,206 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-27
+2021-05-17 19:35:47,206 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-26
+2021-05-17 19:35:47,207 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-28
+2021-05-17 19:35:47,222 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-29
+2021-05-17 19:35:47,223 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-29
+2021-05-17 19:35:47,232 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-59
+2021-05-17 19:35:47,265 INFO o.a.j.t.JMeterThread: Thread started: mto-restful Thread Group 1-60
+2021-05-17 19:35:47,268 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-30
+2021-05-17 19:35:47,268 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-30
+2021-05-17 19:35:47,298 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-31
+2021-05-17 19:35:47,298 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-31
+2021-05-17 19:35:47,329 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-32
+2021-05-17 19:35:47,329 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-32
+2021-05-17 19:35:47,345 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-33
+2021-05-17 19:35:47,345 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-33
+2021-05-17 19:35:47,405 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-34
+2021-05-17 19:35:47,405 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-34
+2021-05-17 19:35:47,451 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-35
+2021-05-17 19:35:47,452 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-35
+2021-05-17 19:35:47,452 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-36
+2021-05-17 19:35:47,452 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-36
+2021-05-17 19:35:47,511 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-37
+2021-05-17 19:35:47,511 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-37
+2021-05-17 19:35:47,527 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-38
+2021-05-17 19:35:47,527 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-38
+2021-05-17 19:35:47,558 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-39
+2021-05-17 19:35:47,558 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-39
+2021-05-17 19:35:47,619 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-40
+2021-05-17 19:35:47,619 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-41
+2021-05-17 19:35:47,619 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-40
+2021-05-17 19:35:47,619 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-41
+2021-05-17 19:35:47,665 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-42
+2021-05-17 19:35:47,665 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-42
+2021-05-17 19:35:47,711 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-44
+2021-05-17 19:35:47,711 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-43
+2021-05-17 19:35:47,711 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-44
+2021-05-17 19:35:47,712 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-43
+2021-05-17 19:35:47,742 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-45
+2021-05-17 19:35:47,742 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-45
+2021-05-17 19:35:47,819 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-46
+2021-05-17 19:35:47,819 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-46
+2021-05-17 19:35:47,819 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-47
+2021-05-17 19:35:47,820 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-47
+2021-05-17 19:35:47,881 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-48
+2021-05-17 19:35:47,881 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-48
+2021-05-17 19:35:47,912 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-51
+2021-05-17 19:35:47,912 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-49
+2021-05-17 19:35:47,912 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-51
+2021-05-17 19:35:47,912 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-49
+2021-05-17 19:35:47,944 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-50
+2021-05-17 19:35:47,944 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-50
+2021-05-17 19:35:48,021 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-53
+2021-05-17 19:35:48,021 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-52
+2021-05-17 19:35:48,021 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-52
+2021-05-17 19:35:48,021 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-53
+2021-05-17 19:35:48,052 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-54
+2021-05-17 19:35:48,052 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-54
+2021-05-17 19:35:48,128 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-55
+2021-05-17 19:35:48,128 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-56
+2021-05-17 19:35:48,128 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-55
+2021-05-17 19:35:48,128 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-56
+2021-05-17 19:35:48,160 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-58
+2021-05-17 19:35:48,160 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-57
+2021-05-17 19:35:48,160 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-58
+2021-05-17 19:35:48,160 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-57
+2021-05-17 19:35:48,224 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-59
+2021-05-17 19:35:48,224 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-59
+2021-05-17 19:35:48,255 INFO o.a.j.t.JMeterThread: Thread is done: mto-restful Thread Group 1-60
+2021-05-17 19:35:48,255 INFO o.a.j.t.JMeterThread: Thread finished: mto-restful Thread Group 1-60
+2021-05-17 19:35:48,256 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-05-17 19:35:48,257 INFO o.a.j.r.Summariser: summary =    240 in 00:00:03 =   80.9/s Avg:   250 Min:     2 Max:   632 Err:    60 (25.00%)
+2021-05-17 19:35:48,257 INFO o.a.j.JMeter: Generating Dashboard
+2021-05-17 19:35:48,258 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-05-17 19:35:48,267 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-05-17 19:35:48,651 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-05-17 19:35:48,651 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-05-17 19:35:48,653 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-05-17 19:35:48,653 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-05-17 19:35:48,658 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-05-17 19:35:48,661 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-05-17 19:35:48,662 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-05-17 19:35:48,662 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-05-17 19:35:48,670 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-05-17 19:35:48,670 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-05-17 19:35:48,670 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-05-17 19:35:48,670 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-05-17 19:35:48,679 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-05-17 19:35:48,680 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1680 samples
+2021-05-17 19:35:48,680 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-05-17 19:35:48,680 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-05-17 19:35:48,680 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-05-17 19:35:48,680 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-05-17 19:35:48,680 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-05-17 19:35:48,680 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-05-17 19:35:48,682 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-05-17 19:35:48,682 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-05-17 19:35:48,682 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-05-17 19:35:48,682 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-05-17 19:35:48,682 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 3600 samples
+2021-05-17 19:35:48,682 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 720 samples
+2021-05-17 19:35:48,682 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 240 samples
+2021-05-17 19:35:48,683 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 240 samples produced in 390ms on channel 0
+2021-05-17 19:35:48,683 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-05-17 19:35:48,798 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2021-05-17 19:35:48,798 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-05-17 19:35:48,798 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-05-17 19:35:48,799 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-05-17 19:35:48,799 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\Hp omen\testowanie\performance\.\test\statistics.json
+2021-05-17 19:35:48,836 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-05-17 19:35:48,838 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\Hp omen\testowanie\performance\.\test
+2021-05-17 19:35:48,933 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\Hp omen\testowanie\performance\.\test, creating folder structure
+2021-05-17 19:35:48,935 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'E:\apache-jmeter-5.4.1\bin\report-template' to 'C:\Users\Hp omen\testowanie\performance\.\test', got message: C:\Users\Hp omen\testowanie\performance\.\test, found non empty folder with following content [C:\Users\Hp omen\testowanie\performance\.\test\statistics.json], will be ignored
+2021-05-17 19:35:49,211 INFO o.a.j.JMeter: Dashboard generated
